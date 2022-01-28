@@ -1,0 +1,40 @@
+{
+  "name": "@idmyn/gatsby-remark-wiki-link",
+  "description": "A thin wrapper over `remark-wiki-link` for use with Gatsby",
+  "version": "1.0.0",
+  "keywords": [
+    "gatsby",
+    "remark",
+    "remark-plugin",
+    "markdown",
+    "wiki"
+  ],
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/idmyn/gatsby-remark-wiki-link",
+  "license": "MIT",
+  "author": {
+    "name": "David Mynors",
+    "email": "hello@davidmyno.rs",
+    "url": "https://davidmyno.rs"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo 'no tests'"
+  },
+  "dependencies": {
+    "remark-wiki-link": "^1.0.4"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  }
+}
